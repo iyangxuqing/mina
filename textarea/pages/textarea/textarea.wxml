@@ -1,0 +1,17 @@
+
+<view class="review-container">
+  <view class="review-trigger" bindtap="onReviewTrigger">评论</view>
+</view>
+
+<view class="review-inputer {{reviewInputerShow?'show':'hide'}}">
+    <textarea
+        value=""
+        placeholder="输入评论" 
+        fixed="true" 
+        focus="{{focus}}"
+        cursor-spacing="10"
+        bindblur="onReviewInputBlur"
+        bindconfirm="OnReviewInputConfirm"
+        bindlinechange="onReviewInputLineChange">
+    </textarea>
+</view>

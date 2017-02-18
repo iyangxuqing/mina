@@ -1,0 +1,32 @@
+/* pages/textarea/textarea.wxss */
+
+.review-container{
+    position: relative;
+}
+
+.review-trigger{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+
+.review-inputer{
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+textarea{
+    /*width: 320px;*/
+    /*height: 50px;*/
+    /*border: 1px solid #ddd;*/
+    font-size: 16px;
+}
