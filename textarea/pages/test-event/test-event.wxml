@@ -1,0 +1,4 @@
+<!--pages/test-event/test-event.wxml-->
+<button bindtap="onTap">test</button>
+
+<button bindtap="setA">test2</button>
