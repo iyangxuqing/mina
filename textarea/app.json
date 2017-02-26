@@ -3,7 +3,8 @@
     "pages/test-event/test-event",
     "pages/textarea/textarea",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/run/run"
   ],
   "window":{
     "backgroundTextStyle":"light",

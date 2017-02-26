@@ -2,3 +2,4 @@
 <button bindtap="onTap">test</button>
 
 <button bindtap="setA">test2</button>
+<text>{{abc}}</text>

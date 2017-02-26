@@ -3,10 +3,13 @@ let component = require("../../utils/component.js");
 
 Page({
   data: {
+    page: 'test-event'
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
-    component.component(this)
+    // component.component(this)
+
+
   },
   onReady: function () {
     // 页面渲染完成
@@ -23,5 +26,12 @@ Page({
   onTap: function (e) {
     console.log(this)
   },
+  run: function () {
+    console.log('123')
+  },
+
+  onmessage: function (e) {
+    console.log(e)
+  }
 
 })
